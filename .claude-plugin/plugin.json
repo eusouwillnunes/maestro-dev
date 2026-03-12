@@ -1,0 +1,8 @@
+{
+  "name": "maestro-dev",
+  "version": "1.0.0",
+  "description": "Agentes especializados para vibe coding — do produto ao deploy. Produto (Cagan + Ries), Arquiteto (Brown + Fowler), Banco de Dados (Celko), Setup, Testes (Kent Beck), Deploy e Git. Para quem dirige e não codifica.",
+  "author": "@eusouwillnunes",
+  "license": "MIT",
+  "repository": "https://github.com/eusouwillnunes"
+}
