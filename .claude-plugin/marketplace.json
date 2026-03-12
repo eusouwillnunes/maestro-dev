@@ -1,0 +1,12 @@
+{
+  "name": "maestro-dev",
+  "description": "Maestro Dev — Agentes especializados para vibe coding. Por @eusouwillnunes para A Comunidade dos Últimos.",
+  "plugins": [
+    {
+      "name": "maestro-dev",
+      "description": "7 agentes + 7 comandos para levar projetos do zero ao ar. Produto, Arquiteto, Banco de Dados, Setup, Testes, Deploy e Git. Para quem dirige e não codifica.",
+      "source": ".",
+      "version": "1.0.0"
+    }
+  ]
+}

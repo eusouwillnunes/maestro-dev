@@ -30,19 +30,24 @@ estruturados que sabem o que fazer e quando fazer.
 
 ### Opção 1 — Via GitHub (recomendado)
 
-No terminal do Claude Code:
+No terminal do Claude Code, dois passos:
 
 ```
-/plugin install github:eusouwillnunes/maestro-dev
+/plugin marketplace add eusouwillnunes/maestro-dev
 ```
 
-Pronto. Os agentes e comandos ficam disponíveis 
-imediatamente.
+```
+/plugin install maestro-dev@eusouwillnunes/maestro-dev
+```
+
+O primeiro comando registra o repositório. O segundo 
+instala o plugin. Pronto — agentes e comandos ficam 
+disponíveis em todos os projetos.
 
 Para atualizar quando houver versão nova:
 
 ```
-/plugin update maestro-dev
+/plugin update maestro-dev@eusouwillnunes/maestro-dev
 ```
 
 ### Opção 2 — Via arquivo local
@@ -53,8 +58,7 @@ Se você baixou o arquivo `maestro-dev.zip`:
 /plugin install /caminho/onde/voce/salvou/maestro-dev.zip
 ```
 
-Substitua `/caminho/onde/voce/salvou/` pelo caminho real 
-no seu computador. Exemplo no Mac:
+Substitua pelo caminho real. Exemplo no Mac:
 
 ```
 /plugin install ~/Downloads/maestro-dev.zip
