@@ -13,7 +13,10 @@
     {
       "name": "maestro-dev",
       "description": "7 agentes + 8 comandos para levar projetos do zero ao ar. Produto, Arquiteto, Banco de Dados, Setup, Testes, Deploy e Git. Para quem dirige e não codifica.",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "eusouwillnunes/maestro-dev"
+      },
       "version": "1.0.0",
       "author": {
         "name": "Willian Nunes"
